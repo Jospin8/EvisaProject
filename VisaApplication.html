@@ -1,0 +1,102 @@
+<?php
+// index.php
+session_start();
+if (!isset($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+
+// Check if user is logged in and get their name
+$isLoggedIn = isset($_SESSION['id_number']);
+$userName = '';
+if ($isLoggedIn) {
+    require 'Backend/config.php';
+    try {
+        $stmt = $pdo->prepare("SELECT first_name FROM users WHERE id_number = ?");
+        $stmt->execute([$_SESSION['id_number']]);
+        $user = $stmt->fetch();
+        $userName = $user['first_name'] ?? '';
+    } catch (PDOException $e) {
+        // Handle error silently or log it
+        file_put_contents('debug.log', "Error fetching user name: " . $e->getMessage() . "\n", FILE_APPEND);
+    }
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evisa Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .user-menu {
+            position: relative;
+            display: inline-block;
+        }
+        .user-button {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .user-button:hover {
+            background-color: #45a049;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: #f9f9f9;
+            min-width: 120px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .user-menu:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <img src="./assets/poils.png" alt="Flag">
+    </div>
+
+    <header class="navbar">
+        <div class="logo">
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+            <div class="logo-img">
+                <img src="./assets/images.png" alt="Logo">
+            </div>
+            Evisa Portal
+        </div>
+        <div class="navbar-links">
+            <a href="index.php"><ion-icon name="home-outline"></ion-icon>Home</a>
+            <a href="#hero-section" id="apply-link"><ion-icon name="documents-outline"></ion-icon>Apply</a>
+            <a href="status.php"><ion-icon name="checkmark-done-outline"></ion-icon>Status</a>
+            <a href="#faq"><ion-icon name="help-circle-outline"></ion-icon>FAQ</a>
+            <a href="#contact"><ion-icon name="mail-outline"></ion-icon>Contact</a>
+            <?php if ($isLoggedIn): ?>
+                <div class="user-menu">
+                    <button class="user-button"><?php echo htmlspecialchars($userName); ?></button>
+                    <div class="dropdown-content">
+                        <a href="#" id="logout-link">Logout</a>
+                    </div>
+                </div>
+            <?php else: ?>
+                <a href="#hero-section" id="login-link"><ion-icon name="log-in-outline"></ion-icon>Login</a>
+            <?php endif; ?>
+        </div>
+    </header>
+   

@@ -1,0 +1,360 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.flag{
+    margin: 0;
+    height: 2rem;
+}
+
+.flag img {
+    width: 100%;
+    height: 2rem;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color:rgba(179, 110, 46, 0.8);
+    color: rgb(0, 0, 0);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.logo-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 35px;
+}
+
+.navbar-links a {
+    color: rgb(17, 0, 255);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    transition: color 0.3s ease;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.navbar-links a:hover {
+    color: red;
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    color: rgb(17, 0, 255);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.hero-section {
+    background-image: url(./assets/lumumba.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 70rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.auth-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 45px;
+    border-radius: 16px;
+    text-align: center;
+    width: 45rem;
+    height: 45rem;
+    opacity: 1;
+}
+#loginForm, #signForm{
+    margin: 0;
+    background-color: burlywood;
+    border-radius: 10px;
+
+}
+
+.auth-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.auth-box button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+body.blurred .main-content {
+    filter: blur(8px);
+    pointer-events: none;
+    user-select: none;
+}
+
+.login-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.register-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.auth-box button:hover {
+    opacity: 0.9;
+}
+
+.overlay-boxes {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
+    padding: 3rem;
+    z-index: 1;
+    margin-left: 10rem;
+}
+
+.overlay-box {
+    width: 30rem;
+    height: 40rem;
+    background-color: rgba(163, 120, 84, 0.8);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box-details {
+    padding: 20%;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.box-name {
+    padding: 1rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    
+}
+
+.box-image img {
+    width: 15rem;
+    height: 14rem;
+    align-self: center;
+    border-radius: 10px;
+}
+
+/* Form transitions */
+.form-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    pointer-events: none;
+}
+
+.form.slide-in {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form input {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.form select{ 
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.form button {
+    width: 20%;
+    position: relative;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #573c1e;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-left: 18.2rem;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
+.toggle-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.toggle-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.toggle-text a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: rgb(197, 169, 131);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.socials,
+.navbar-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.socials a,
+.navbar-links a {
+    color: rgb(17, 0, 255);
+    text-decoration: none;
+}
+
+.socials a:hover,
+.navbar-links a:hover {
+    color: red;
+}
+
+.divider {
+    width: 2px;
+    height: 40px;
+    background-color: rgb(26, 28, 163);
+}
+
+.copyR {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 1rem;
+}
+

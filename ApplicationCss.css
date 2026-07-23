@@ -1,0 +1,351 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  .flag{
+    margin: 0;
+    height: 2rem;
+  }
+  
+  .flag img {
+    width: 100%;
+    height: 2rem;
+    object-fit: cover;
+  }
+  
+  .navbar {
+    background-color: rgb(161, 118, 77);
+    color: rgb(0, 0, 0);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-top: -5px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logo-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+  }
+  
+  .logo-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 35px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links a {
+    color: rgb(253, 253, 255);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    transition: color 0.3s ease;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  .navbar-links a:hover {
+    color: red;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    color: rgb(253, 253, 255);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    color: red;
+  }
+  
+  .dropdown:hover .dropdown-content,
+  .dropdown:focus-within .dropdown-content {
+    display: block;
+  }
+  
+  .application-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 4rem 0;
+    position: relative;
+    min-height: 100vh;
+    margin-top: 0;
+  }
+  
+  .application-form-container {
+    background: #cea474;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    opacity: 0.95;
+    margin-top: 4rem;
+    margin-right: 6rem;
+    align-self: flex-start;
+    
+  }
+  
+  .PassportApplication .image-container,
+  .VisaApplication .image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .PassportApplication .image-container img,
+  .VisaApplication .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+  }
+  
+  .application-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-step {
+    display: none;
+  }
+  
+  .form-step.active {
+    display: block;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .form-row input,
+  .form-row select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin: 5px;
+  }
+  
+  .form-row label {
+    flex: 1;
+    font-weight: 500;
+    gap: 10px;
+  }
+  
+  .form-row input[type="file"] {
+    padding: 5px;
+    gap: 5px;
+    margin: 5px;
+  }
+  
+  .submit-button {
+    padding: 12px;
+    background-color: rgb(63, 38, 10);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .submit-button:hover {
+    background-color: rgb(139, 63, 0);
+  }
+  
+  .progress-bar-container {
+    position: relative;
+    height: 20px;
+    background: #ddd;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background: #4caf50;
+    transition: width 0.3s;
+    border-radius: 8px;
+    width: 50%; /* Initial width for Step 1 */
+  }
+  
+  .step-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .error {
+    border: 1px solid red;
+  }
+  
+  .footer {
+    background-color: rgb(204, 156, 93);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .socials,
+  .navbar-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  
+  .socials a,
+  .navbar-links a {
+    color: rgb(17, 0, 255);
+    text-decoration: none;
+  }
+  
+  .socials a:hover,
+  .navbar-links a:hover {
+    color: red;
+  }
+  
+  .divider {
+    width: 2px;
+    height: 40px;
+    background-color: rgb(26, 28, 163);
+  }
+  
+  .copyR {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 1rem;
+  }
+  
+  .menu-toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      padding: 1rem 0;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  
+    .navbar-links a,
+    .dropbtn {
+      margin: 0.5rem 0;
+    }
+  
+    .application-form-container {
+      padding: 20px;
+      max-width: 90%;
+    }
+  
+    .form-row {
+      flex-direction: column;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }

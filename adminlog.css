@@ -1,0 +1,165 @@
+/* Root variables for consistent theming */
+:root {
+    --primary: rgb(202, 147, 76);
+    --primary-dark: rgb(182, 127, 56);
+    --accent: aqua;
+    --danger: #dc3545;
+    --success: #28a745;
+    --text: #333;
+    --border: #ccc;
+    --bg-light: #f8f8f8;
+    --bg-form: burlywood;
+    --disabled: #aaa; /* Added missing variable */
+}
+
+/* Body styling */
+body {
+    background: white;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login section */
+.login {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--bg-form);
+    margin-top: 2.5rem;
+    padding: 2rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    max-width: 40rem;
+    width: 100%;
+}
+
+/* Title styling */
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--text);
+    margin-bottom: 1.5rem;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 25rem;
+    margin: 0 auto;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-row label {
+    width: 100px;
+    font-size: 1.2rem;
+    color: var(--text);
+}
+
+.form-row input {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    font-size: 1rem;
+}
+
+.form-row input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 5px var(--primary-dark);
+}
+
+/* Error and success messages */
+#error-message, #success-message {
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#error-message {
+    color: var(--danger);
+    background: #ffebee;
+    border: 1px solid var(--danger);
+    display: none;
+}
+
+#success-message {
+    color: var(--success);
+    background: #e8f5e9;
+    border: 1px solid var(--success);
+}
+
+/* Button styling */
+button {
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    background: var(--primary);
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: var(--primary-dark);
+}
+
+button:disabled {
+    background: var(--disabled);
+    cursor: not-allowed;
+}
+
+/* Support links */
+.support-links {
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--text);
+}
+
+.support-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.support-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .login {
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+
+    .form-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-row label, .form-row input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}

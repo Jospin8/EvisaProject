@@ -1,0 +1,309 @@
+:root {
+    --primary: #573c1e; /* Main color for headers and buttons */
+    --primary-dark: #af815a; /* Hover state for primary elements */
+    --accent: #db1515; /* Highlight color for emphasis (e.g., "ADMIN" in header) */
+    --danger: #dc3545; /* For delete/logout buttons */
+    --success: #28a745; /* For success states */
+    --warning: #ffc107; /* For warnings */
+    --disabled: #ccc; /* For disabled elements */
+    --text: #333; /* Default text color */
+    --border: #ddd; /* Border color */
+    --bg-light: #f8f8f8; /* Light background for tables and sidebar */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-container {
+    width: 120rem;
+    margin: 0 auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary);
+    color: white;
+    padding: 1rem 2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header h1 span {
+    color: var(--accent);
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 20rem;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.side-bar {
+    width: 15rem;
+    background: var(--bg-light);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.side-bar a {
+    display: block;
+    padding: 0.5rem;
+    color: var(--text);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.side-bar a:hover {
+    background: var(--primary);
+    color: white;
+}
+
+.content {
+    flex: 1;
+    padding: 1rem;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+h2, h3 {
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    border: 1px solid var(--border);
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th {
+    background: var(--primary);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: var(--bg-light);
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: var(--primary);
+    color: white;
+    font-size: 0.9rem;
+}
+
+.btn:hover {
+    background: var(--primary-dark);
+}
+
+.logout-btn {
+    background: var(--danger);
+}
+
+.logout-btn:hover {
+    background: #c82333;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: burlywood;
+    padding: 1.5rem;
+    width: 90%;
+    max-width: 40rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    text-align: center;
+    color: var(--text);
+}
+
+.modal-content p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.modal-content img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--danger);
+    font-weight: bold;
+}
+
+.close:hover {
+    color: #c82333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 25rem;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-row label {
+    width: 100px;
+    font-size: 1.1rem;
+}
+
+.form-row input,
+.form-row textarea {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+}
+
+.form-row textarea {
+    height: 5rem;
+}
+
+form button {
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+    background: var(--primary);
+}
+
+form button:hover {
+    background: var(--primary-dark);
+}
+
+form button:disabled {
+    background: var(--disabled);
+    cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+    .dash-container {
+        padding: 0.5rem;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .side-bar {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .side-bar a {
+        padding: 0.75rem;
+    }
+
+    .form-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-row label,
+    .form-row input,
+    .form-row textarea {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    .modal-content {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .search-bar input {
+        max-width: 100%;
+    }
+}
