@@ -1,0 +1,173 @@
+/* status.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.flag {
+    margin: 0;
+    height: 2rem;
+}
+
+.flag img {
+    width: 100%;
+    height: 2rem;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: rgba(179, 110, 46, 0.8);
+    color: rgb(0, 0, 0);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.logo-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 35px;
+}
+
+.navbar-links a {
+    color: rgb(17, 0, 255);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    transition: color 0.3s ease;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.navbar-links a:hover {
+    color: red;
+}
+
+.status-section {
+    background-image: url(./assets/lumumba.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.status-box {
+    background-color: burlywood;
+    padding: 30px 45px;
+    border-radius: 16px;
+    text-align: center;
+    width: 45rem;
+    max-width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.status-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.status-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.status-box input,
+.status-box select {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.status-box button {
+    width: 20%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #573c1e;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.status-box button:hover {
+    background-color: #0056b3;
+}
+
+.status-result {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.footer {
+    background-color: rgb(197, 169, 131);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.socials,
+.navbar-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.socials a,
+.navbar-links a {
+    color: rgb(17, 0, 255);
+    text-decoration: none;
+}
+
+.socials a:hover,
+.navbar-links a:hover {
+    color: red;
+}
+
+.divider {
+    width: 2px;
+    height: 40px;
+    background-color: rgb(26, 28, 163);
+}
+
+.copyR {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 1rem;
+}

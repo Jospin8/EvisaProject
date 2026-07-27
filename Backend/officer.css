@@ -1,0 +1,196 @@
+/* officer.css - Officer Dashboard Styling with Admin-like Colors */
+
+:root {
+    --primary: #573c1e; /* Main headers/buttons */
+    --primary-dark: #af815a; /* Hover state */
+    --accent: #db1515; /* Highlights */
+    --danger: #dc3545; /* Logout/Delete buttons */
+    --success: #28a745;
+    --warning: #ffc107;
+    --disabled: #ccc;
+    --text: #333;
+    --border: #ddd;
+    --bg-light: #f8f8f8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    min-height: 100vh;
+}
+
+.dash-container {
+    width: 125rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+header h1 span {
+    color: var(--accent);
+}
+
+.side-bar {
+    width: 200px;
+    background: var(--bg-light);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.side-bar a {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.side-bar a:hover {
+    background: var(--primary);
+    color: white;
+    border-radius: 5px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 1rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: var(--text);
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+th, td {
+    border: 1px solid var(--border);
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+th {
+    background: var(--primary);
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background: var(--bg-light);
+}
+
+tr:hover {
+    background: var(--primary-dark);
+    color: white;
+}
+
+button, .btn {
+    background: var(--primary);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+    background: var(--primary-dark);
+}
+
+.logout-btn {
+    background: var(--danger);
+}
+
+.logout-btn:hover {
+    background: #c82333;
+}
+
+/* Forms styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-row label {
+    width: 120px;
+    font-weight: 500;
+}
+
+.form-row input, .form-row textarea {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+}
+
+form button {
+    width: 150px;
+    align-self: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .dash-container {
+        width: 95%;
+        padding: 0.5rem;
+    }
+
+    .main-content {
+        padding: 0.5rem;
+    }
+
+    .side-bar {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .form-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    form button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,1255 @@
+Login POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Login POST data received:
+Array
+(
+)
+
+Method not allowed
+Login POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Login POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+)
+
+Method not allowed
+Signup POST data received:
+Array
+(
+    [id_number] => 0123456789
+    [first_name] => jospin 
+    [last_name] => pino
+    [phone] => 123456789525
+    [dob] => 2025-06-04
+    [email] => hfff@nbv.com
+    [address] => bvgf
+    [password] => 0123456789
+)
+
+User registered: hfff@nbv.com
+Welcome email sent to: hfff@nbv.com
+Signup POST data received:
+Array
+(
+    [id_number] => 0123456789
+    [first_name] => jospin 
+    [last_name] => pino
+    [phone] => 123456789525
+    [dob] => 2025-06-04
+    [email] => hfff@nbv.com
+    [address] => bvgf
+    [password] => 23456789525
+)
+
+Email or ID number already registered
+Login POST data received:
+Array
+(
+    [email] => test@evisa.com
+    [password] => evisa123
+    [applicationType] => passport
+)
+
+Login failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'EVisa.customers' doesn't exist
+Login POST data received:
+Array
+(
+    [email] => test@evisa.com
+    [password] => evisa123
+    [applicationType] => passport
+)
+
+Login failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'EVisa.customers' doesn't exist
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'EVisa.customers' doesn't exist
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Account not active. Please verify your email.
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo2430
+    [applicationType] => passport
+)
+
+Invalid email or password
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+)
+
+Method not allowed
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+[27-Jul-2025 21:57:17 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "APP_URL" in /var/www/html/EvisaProject/Backend/signup.php:99
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/EvisaProject/Backend/signup.php on line 99
+[27-Jul-2025 21:58:25 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "APP_URL" in /var/www/html/EvisaProject/Backend/signup.php:99
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/EvisaProject/Backend/signup.php on line 99
+[27-Jul-2025 22:06:57 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "APP_URL" in /var/www/html/EvisaProject/Backend/signup.php:99
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/EvisaProject/Backend/signup.php on line 99
+[27-Jul-2025 22:12:42 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "APP_URL" in /var/www/html/EvisaProject/Backend/signup.php:99
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/EvisaProject/Backend/signup.php on line 99
+[27-Jul-2025 22:16:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "APP_URL" in /var/www/html/EvisaProject/Backend/signup.php:100
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/EvisaProject/Backend/signup.php on line 100
+[27-Jul-2025 22:24:15 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$password is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 32
+[27-Jul-2025 22:24:15 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$subject is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 38
+[27-Jul-2025 22:24:15 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$body is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 39
+[27-Jul-2025 22:24:15 UTC] Email not found: Message body empty
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+[27-Jul-2025 22:36:02 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$password is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 32
+[27-Jul-2025 22:36:02 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$subject is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 38
+[27-Jul-2025 22:36:02 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$body is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 39
+[27-Jul-2025 22:36:02 UTC] Email not found: Message body empty
+[28-Jul-2025 15:33:33 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$password is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 32
+[28-Jul-2025 15:33:33 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$subject is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 38
+[28-Jul-2025 15:33:33 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$body is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 39
+[28-Jul-2025 15:33:33 UTC] Email not found: Message body empty
+Login POST data received:
+Array
+(
+    [email] => arsene@gaut.com
+    [password] => Mobateli123@
+    [applicationType] => passport
+)
+
+Invalid email or password
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ivan@muhindo.com
+    [password] => muhindo243
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+[25-Aug-2025 18:14:06 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$password is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 33
+[25-Aug-2025 18:14:06 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$subject is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 39
+[25-Aug-2025 18:14:06 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$body is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 40
+[25-Aug-2025 18:14:06 UTC] Email not found: Message body empty
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Invalid email or password
+[25-Aug-2025 23:06:22 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$password is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 33
+[25-Aug-2025 23:06:22 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$subject is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 39
+[25-Aug-2025 23:06:22 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$body is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 40
+[25-Aug-2025 23:06:22 UTC] Email not found: Message body empty
+[27-Aug-2025 08:54:33 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$password is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 33
+[27-Aug-2025 08:54:33 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$subject is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 39
+[27-Aug-2025 08:54:33 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$body is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 40
+[27-Aug-2025 08:54:33 UTC] Email not found: Message body empty
+Login POST data received:
+Array
+(
+    [email] => justin@bugasha.com
+    [password] => justin1234
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => justin@bugasha.com
+    [password] => justin1234
+    [applicationType] => visa
+)
+
+Invalid email or password
+Login POST data received:
+Array
+(
+    [email] => justin@bugasha.com
+    [password] => justin1234
+    [applicationType] => passport
+)
+
+Invalid email or password
+[27-Aug-2025 09:55:36 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$password is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 33
+[27-Aug-2025 09:55:36 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$subject is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 39
+[27-Aug-2025 09:55:36 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$body is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 40
+[27-Aug-2025 09:55:36 UTC] Email not found: Message body empty
+Login POST data received:
+Array
+(
+    [email] => jospin8kas@icloude.com
+    [password] => charles123
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => jospin8kas@icloude.com
+    [password] => charles123
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => jospin8kas@icloude.com
+    [password] => charles123
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Invalid email or password
+Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [applicationType] => visa
+)
+
+Invalid email or password
+[27-Aug-2025 17:23:58 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$password is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 33
+[27-Aug-2025 17:23:58 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$subject is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 39
+[27-Aug-2025 17:23:58 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$body is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 40
+[27-Aug-2025 17:23:58 UTC] Email not found: Message body empty
+Login POST data received:
+Array
+(
+    [email] => jospin8kas@icloudee.com
+    [password] => jospin8888
+    [applicationType] => visa
+)
+
+Invalid email or password
+Login POST data received:
+Array
+(
+    [email] => jospin8kas@icloudee.com
+    [password] => jospin8888
+    [applicationType] => visa
+)
+
+Invalid email or password
+Login POST data received:
+Array
+(
+    [email] => jospin8kas@icloudee.com
+    [password] => jospin888
+    [applicationType] => visa
+)
+
+Invalid email or password
+Login POST data received:
+Array
+(
+    [email] => jospin8kas@icloudee.com
+    [password] => jospin888
+    [applicationType] => visa
+)
+
+Invalid email or password
+[27-Aug-2025 17:25:44 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$password is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 33
+[27-Aug-2025 17:25:44 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$subject is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 39
+[27-Aug-2025 17:25:44 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$body is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 40
+[27-Aug-2025 17:25:44 UTC] Email not found: Message body empty
+Login POST data received:
+Array
+(
+    [email] => chris@ben.com
+    [password] => chrisben123
+    [applicationType] => visa
+)
+
+Invalid email or password
+Login POST data received:
+Array
+(
+    [email] => chris@ben.com
+    [password] => chrisben123
+    [applicationType] => visa
+)
+
+Invalid email or password
+Login POST data received:
+Array
+(
+    [email] => ben@chris.com
+    [password] => chrisben123
+    [applicationType] => visa
+)
+
+Invalid email or password
+Login POST data received:
+Array
+(
+    [email] => ben@chris.com
+    [password] => chrisben123
+    [applicationType] => visa
+)
+
+Invalid email or password
+Login POST data received:
+Array
+(
+    [email] => ben@chris.com
+    [password] => benchris123
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ben@chris.com
+    [password] => benchris123
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => ben@chris.com
+    [password] => benchris123
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ben@chris.com
+    [password] => benchris123
+    [applicationType] => passport
+)
+
+Login POST data received:
+Array
+(
+    [email] => ben@chris.com
+    [password] => benchris123
+    [applicationType] => visa
+)
+
+Admin Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [csrf_token] => 7e4e9c154eb5e321c73ed6a75ce3863992f8d9d76529a2f7ea97ca204db7bd44
+)
+
+Invalid email or password
+Admin Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [csrf_token] => 7e4e9c154eb5e321c73ed6a75ce3863992f8d9d76529a2f7ea97ca204db7bd44
+)
+
+Invalid email or password
+[27-Aug-2025 18:11:18 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$password is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 33
+[27-Aug-2025 18:11:18 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$subject is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 39
+[27-Aug-2025 18:11:18 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$body is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 40
+[27-Aug-2025 18:11:18 UTC] Email not found: Message body empty
+Admin Login POST data received:
+Array
+(
+    [email] => jos@pin.com
+    [password] => jospin123
+    [csrf_token] => 7e4e9c154eb5e321c73ed6a75ce3863992f8d9d76529a2f7ea97ca204db7bd44
+)
+
+Account not active. Please contact support.
+[27-Aug-2025 18:19:29 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$password is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 33
+[27-Aug-2025 18:19:29 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$subject is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 39
+[27-Aug-2025 18:19:29 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$body is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 40
+[27-Aug-2025 18:19:29 UTC] Email not found: Message body empty
+Admin Login POST data received:
+Array
+(
+    [email] => pino@pino.com
+    [password] => pinopino123
+    [csrf_token] => 7e4e9c154eb5e321c73ed6a75ce3863992f8d9d76529a2f7ea97ca204db7bd44
+)
+
+Admin Login POST data received:
+Array
+(
+    [email] => pino@pino.com
+    [password] => pinopino123
+    [csrf_token] => 07239172c4fa3f50b10e798f5b5df468c1aa8eb4b458fe6c601fc4fa859a855c
+)
+
+Admin Login POST data received:
+Array
+(
+    [email] => pino@pino.com
+    [password] => pinopino123
+    [csrf_token] => 5e17194b47c0fcff41239404870fabaf60fc8f0dc7a475b7c1a7dda7a3fad95b
+)
+
+Admin Login POST data received:
+Array
+(
+    [email] => pino@pino.com
+    [password] => pinopino123
+    [csrf_token] => 2a52f2c083ff41c2b6ee7de359d0312153dcc985b54a25c8cfb3a28c70d13fd6
+)
+
+Admin Login POST data received:
+Array
+(
+    [email] => pino@pino.com
+    [password] => pinopino123
+    [csrf_token] => 648707893097d1696e6b82f20467de184815942c16398bfcab69ae8584bfffab
+)
+
+Admin Login POST data received:
+Array
+(
+    [email] => pino@pino.com
+    [password] => pinopino123
+    [csrf_token] => 374182c04d5689dca478f5e34ed26ccc927246e134b768ec9daedfe17b95645c
+)
+
+Admin Login POST data received:
+Array
+(
+    [email] => pino@pino.com
+    [password] => pinopino123
+    [csrf_token] => 75048e91207623c0ffdd5af78eef96456b6aaaf68f1386fa7e4d797f524fe07a
+)
+
+Admin Login POST data received:
+Array
+(
+    [email] => mobateli@gmail.com
+    [password] => Mobateli123@
+    [csrf_token] => 97c4a19f13d719b7f2044e239404229bbc985bd156385950c05ff036b997b7e9
+)
+
+Invalid email or password
+Admin Login POST data received:
+Array
+(
+    [email] => pino@pino.com
+    [password] => pinopino1234
+    [csrf_token] => 97c4a19f13d719b7f2044e239404229bbc985bd156385950c05ff036b997b7e9
+)
+
+Invalid email or password
+Admin Login POST data received:
+Array
+(
+    [email] => pino@pino.com
+    [password] => pinopino123
+    [csrf_token] => cd2b95c106c9f4106ce54b2663df5ed70e6c16d6f02a39fb716ce3ed29447db4
+)
+
+Admin Login POST data received:
+Array
+(
+    [email] => pino@pino.com
+    [password] => pinopino123
+    [csrf_token] => 38a1ae13974968a292404eef1cf15de5cb462b079f1b09b165d9c36087f6332e
+)
+
+[28-Aug-2025 22:49:07 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$password is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 33
+[28-Aug-2025 22:49:07 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$subject is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 39
+[28-Aug-2025 22:49:07 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$body is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 40
+[28-Aug-2025 22:49:07 UTC] Email not found: Message body empty
+Login POST data received:
+Array
+(
+    [email] => 12jospin8kas@icloud.com
+    [password] => kaskas123
+    [applicationType] => passport
+)
+
+[29-Aug-2025 07:14:01 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$password is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 33
+[29-Aug-2025 07:14:01 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$subject is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 39
+[29-Aug-2025 07:14:01 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$body is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 40
+[29-Aug-2025 07:14:01 UTC] Email not found: Message body empty
+Login POST data received:
+Array
+(
+    [email] => jos@jos.com
+    [password] => josjos123
+    [applicationType] => visa
+)
+
+Account not active. Please verify your email.
+Login POST data received:
+Array
+(
+    [email] => jos@jos.com
+    [password] => josjos123
+    [applicationType] => visa
+)
+
+Account not active. Please verify your email.
+Login POST data received:
+Array
+(
+    [email] => jos@pin.com
+    [password] => josjos123
+    [applicationType] => visa
+)
+
+Invalid email or password
+Login POST data received:
+Array
+(
+    [email] => jos@pin.com
+    [password] => pinopino123
+    [applicationType] => visa
+)
+
+Invalid email or password
+Login POST data received:
+Array
+(
+    [email] => jospin8kas@icloud.com
+    [password] => pinopino123
+    [applicationType] => visa
+)
+
+Invalid email or password
+Login POST data received:
+Array
+(
+    [email] => jospin8kas@icloud1.com
+    [password] => jospin123
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => just@just.com
+    [password] => justjust123
+    [applicationType] => visa
+)
+
+Login POST data received:
+Array
+(
+    [email] => just@just.com
+    [password] => justjust123
+    [applicationType] => passport
+)
+
+[21-Feb-2026 12:26:51 UTC] PHP Warning:  filter_var(): Allocation of JIT memory failed, PCRE JIT will be disabled. This is likely caused by security restrictions. Either grant PHP permission to allocate executable memory, or set pcre.jit=0 in /var/www/html/EvisaProject/Backend/signup.php on line 44
+[21-Feb-2026 12:27:23 UTC] PHP Warning:  filter_var(): Allocation of JIT memory failed, PCRE JIT will be disabled. This is likely caused by security restrictions. Either grant PHP permission to allocate executable memory, or set pcre.jit=0 in /var/www/html/EvisaProject/Backend/signup.php on line 44
+[21-Feb-2026 12:28:07 UTC] PHP Warning:  filter_var(): Allocation of JIT memory failed, PCRE JIT will be disabled. This is likely caused by security restrictions. Either grant PHP permission to allocate executable memory, or set pcre.jit=0 in /var/www/html/EvisaProject/Backend/signup.php on line 44
+[21-Feb-2026 12:28:35 UTC] PHP Warning:  filter_var(): Allocation of JIT memory failed, PCRE JIT will be disabled. This is likely caused by security restrictions. Either grant PHP permission to allocate executable memory, or set pcre.jit=0 in /var/www/html/EvisaProject/Backend/signup.php on line 44
+[21-Feb-2026 12:28:35 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$password is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 33
+[21-Feb-2026 12:28:35 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$subject is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 39
+[21-Feb-2026 12:28:35 UTC] PHP Deprecated:  Creation of dynamic property PHPMailer\PHPMailer\PHPMailer::$body is deprecated in /var/www/html/EvisaProject/Backend/config.php on line 40
+[21-Feb-2026 12:28:35 UTC] Email not found: Message body empty
+Login POST data received:
+Array
+(
+    [email] => pazu@gmail.com
+    [password] => PrincePazu123
+    [applicationType] => passport
+)
+
+Account not active. Please verify your email.
